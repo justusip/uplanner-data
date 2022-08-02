@@ -112,5 +112,5 @@ def export(institution: str, year: str, files: [str]):
         json.dump(cleaned_courses, outFile, sort_keys=True, indent=4, ensure_ascii=False)
 
 
-export("hku", "2021-2022", ["2021-22_class_timetable_00000000.xlsx", "2021-22_class_timetable_20220112.xlsx"])
-export("hku", "2022-2023", ["2022-23_class_timetable_20220725.xlsx"])
+# export("hku", "2021-2022", ["2021-22_class_timetable_00000000.xlsx", "2021-22_class_timetable_20220112.xlsx"])
+export("hku", "2022-2023", ["2022-23_class_timetable_20220801.xlsx"])
